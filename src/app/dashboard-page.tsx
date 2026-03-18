@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useSVAStore } from '@/store/svaStore';
-import { svaModules, getModuleById, getNextModule } from '@/data/svaModules';
-import { getQuestionsByModule, getRandomQuestions } from '@/data/svaQuestions';
+import { useSVAStore } from '@/src/store/svaStore';
+import { svaModules, getModuleById, getNextModule } from '@/src/data/svaModules';
+import { getQuestionsByModule, getRandomQuestions } from '@/src/data/svaQuestions';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
