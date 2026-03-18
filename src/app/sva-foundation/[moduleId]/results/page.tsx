@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { useSVAStore } from '@/store/svaStore';
-import { getModuleById, getNextModule } from '@/data/svaModules';
+import { useSVAStore } from '@/src/store/svaStore';
+import { getModuleById, getNextModule } from '@/src/data/svaModules';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
