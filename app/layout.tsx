@@ -4,6 +4,7 @@ import './globals.css';
 import { TopHeader } from '@/components/layout/TopHeader';
 import { BottomNav } from '@/components/layout/BottomNav';
 import { Toaster } from '@/lib/hooks/useToast';
+import BackToTop from '@/components/BackToTop';
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -67,6 +68,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </main>
         <BottomNav />
+        <BackToTop />
         <Toaster />
       </body>
     </html>
